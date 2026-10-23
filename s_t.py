@@ -15,7 +15,9 @@ from gtts import gTTS
 from googletrans import Translator
 
 
-st.title("TRADUCTOR.")
+from aurora import app_header, footer
+app_header()
+
 st.subheader("Escucho lo que quieres traducir.")
 
 
@@ -158,7 +160,7 @@ if result:
     
     display_output_text = st.checkbox("Mostrar el texto")
     
-    if st.button("convertir"):
+    if st.button("Convertir a audio", type="primary"):
         result, output_text = text_to_speech(input_language, output_language, text, tld)
         audio_file = open(f"temp/{result}.mp3", "rb")
         audio_bytes = audio_file.read()
@@ -193,3 +195,6 @@ if result:
     
 
 
+
+
+footer("TEXTO / IMAGEN / VOZ / INTERACCIÓN")
