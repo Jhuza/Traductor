@@ -1,0 +1,18 @@
+{
+  "slug": "Traductor",
+  "entry": "s_t.py",
+  "title": "Traductor de voz",
+  "category": "Audio",
+  "headline": "Habla una idea.",
+  "accent": "Escúchala en otro idioma.",
+  "description": "Reconoce voz, traduce la transcripción y genera audio.",
+  "input": "Voz desde el micrófono y configuración de idiomas.",
+  "output": "Transcripción, traducción opcionalmente visible y audio.",
+  "steps": "Pulsa Escuchar, permite el micrófono y habla. Selecciona los idiomas y pulsa Convertir a audio.",
+  "technology": "Web Speech API · Google Translate · gTTS",
+  "limits": "El reconocimiento inicial está configurado en español y depende del soporte del navegador. Requiere conexión.",
+  "image": "OIG8.jpg",
+  "url": "https://traductor-kiqo96tbju5xfryyqtfypu.streamlit.app/",
+  "repo": "https://github.com/Jhuza/Traductor",
+  "kind": "document"
+}

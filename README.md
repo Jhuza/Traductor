@@ -157,3 +157,10 @@ Para contribuir:
 - Traducción: Google Translate
 - Síntesis de voz: gTTS
 - Reconocimiento de voz: Web Speech API
+
+
+## Interfaz Aurora
+
+[Guía visual](docs/guia-visual-aurora.md) · [Ficha de la experiencia](docs/EXPERIENCIA.md) · [Aplicación](https://traductor-kiqo96tbju5xfryyqtfypu.streamlit.app/)
+
+La personalización conserva el propósito del ejercicio de clase. Los componentes compartidos se documentan en [AURORA.md](AURORA.md).
